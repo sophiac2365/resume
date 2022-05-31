@@ -1,3 +1,19 @@
+@import url(variables.css);
+
+:root {
+  /*colors*/
+  --black: #000000;
+  --white: #ffffff;
+
+  /*font sizes*/
+  --h1: 4rem;
+  --h2: 3.15rem;
+  --h3: 2.5rem;
+  --h4: 2.15rem;
+  --h5: 1.5rem;
+
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

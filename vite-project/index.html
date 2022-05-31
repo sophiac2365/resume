@@ -1,13 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+  <title>Resume</title>
+</head>
+
+<body>
+  <h1>Sophia Chan</h1>
+  <p>Hi, I'm Sophia Chan. This is my resume.</p>
+  <div class="resume">
+    <div class="sections education">
+      <h2 class="titles">Education</h2>
+      <ul class="lists">
+        <li>Staten Island Technical High School</li>
+        <ul class="sub">
+          <li>AP course in History</li>
+        </ul>
+      </ul>
+    </div>
+    <div class="sections activities">
+      <h2 class="titles">Activities</h2>
+      <ul class="lists">
+        <li>Staten Island Technical High School Marching Band</li>
+        <ul class="sub">
+          <li>Color Guard</li>
+        </ul>
+        <li>String Ensemble</li>
+      </ul>
+    </div>
+    <div class="sections skills">
+      <h2 class="titles">Skills</h2>
+      <ul class="lists">
+        <li>Language</li>
+        <ul class="sub">
+          <li>Fluent in Cantonese</li>
+          <li>Fluent in Madarin</li>
+        </ul>
+        <li>Music</li>
+        <ul class="sub">
+          <li>ABRSM Violin Grade 7</li>
+          <li>AMRSM Music Theory Grade 5</li>
+        </ul>
+      </ul>
+    </div>
+  </div>
+  <div id="app"></div>
+  <script type="module" src="/main.js"></script>
+</body>
+
 </html>
