@@ -28,13 +28,13 @@ h3 {
 p {
     font-size: var(--h4);
     text-align: center;
-    padding: 1rem;
 }
 
 .resume {
     padding: 4rem;
     margin: 2rem;
     margin-top: 0%;
+    margin-left: 28%;
 }
 
 ul {
@@ -45,6 +45,7 @@ ul {
     text-decoration: underline;
     padding: 2rem;
     padding-bottom: 0%;
+    font-size: var(--h3);
 }
 
 .sections {
@@ -52,7 +53,10 @@ ul {
 }
 
 .lists {
-    font-size: var(--h1);
+    font-size: var(--h2);
     text-decoration: none;
-    list-style: none;
+}
+
+.sub {
+    font-size: var(--h3);
 }
