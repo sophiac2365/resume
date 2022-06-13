@@ -9,6 +9,7 @@ body {
 
 body {
     font-family: 'Quicksand', sans-serif;
+    background-color: paleturquoise;
 }
 
 h1 {
@@ -25,13 +26,9 @@ h3 {
     font-size: var(--h3);
 }
 
-p {
-    font-size: var(--h4);
-    text-align: center;
-}
-
 .resume {
     padding: 4rem;
+    padding-top: 0%;
     margin: 2rem;
     margin-top: 0%;
     margin-left: 28%;
@@ -54,9 +51,10 @@ ul {
 
 .lists {
     font-size: var(--h2);
-    text-decoration: none;
+    text-decoration: none; 
+    padding: 1rem;
 }
 
-.sub {
-    font-size: var(--h3);
+li {
+    padding: 1.5rem;
 }
